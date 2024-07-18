@@ -6,97 +6,115 @@
     <meta name="keywords" content="flopz, bobz, mlbb, franco">
     <meta name="description" content="Это сайт флопза по млбб">
     <title>HypeSeries - лучшие сериалы!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <header>
-        <h1>HypeSeries</h1>
-        <p>Приветствую тебя на сайте по <strong>лучшим сериалам</strong> по моему мнению. Оценка дается от <em>1 до 10</em></p>
-        <p>На этой странице ты также увидишь <strong>5</strong> топовых сериалов, которые обязательны к просмотру!</p>
-    </header>
-    
-    <div>
+    <div class="container">
 
-        <h1>Список  лучших сериалов</h1>
-
-    <table width="500">
-        <thead>
-            <th>Название </th>
-            <th>Дата выхода</th>
-            <th>Оценка</th>
-        </thead>
-        <tbody>
-            <tr>
-            <td>Игра престолов</td>
-            <td>2011</td>
-            <td>9</td>
-            </tr>
-            <tr>
-                <td>Во все тяжкие</td>
-                <td>2008</td>
-                <td>10</td>
-            </tr>
-            <tr>
-                <td>Декстер</td>
-                <td>2006</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>Настоящий детектив</td>
-                <td>2014</td>
-                <td>9</td>
-            </tr>
-            <tr>
-                <td>Клан сопрано</td>
-                <td>2010</td>
-                <td>9</td>
-            </tr>
-        </tbody>
-    </table>
-       
-    </ul>
-    </div>
-<hr>
-    <div>
-        <h1>ТОП 1</h1>
-        <h4>
-            <a href="https://www.kinopoisk.ru/series/404900/" target="_blank">Во все тяжкие</a>
-        </h4>
-        <img src="br_bad.jpg" width="300" alt="здесь лежит баннер во все тяжкие">
-        <p><em>Оценка: <strong>10 из 10</strong> | Лучший сериал</em></p>
-
-
-    </div>
-        <hr>
-
-      <footer>
-        <h1>Связаться со мной</h1>
-        <form action="">
-    
-            <div>
-                <label for="name">Ваше имя</label>
-                <input type="text" name="" id="name" placeholder="Введите имя">
+        <header class="info-text">
+            <div class="hypeseries">
+                <h1>HypeSeries</h1>
+                <img src="flame.png" alt="logo" class="logo">
             </div>
-    
-            <div>
-                <label for="email">Ваш email</label>
-                <input type="email" name="" id="email" placeholder="Введите email">
-            </div>
-    
-    
-            <div>
-                <label for="message">Сообщение</label>
-                <br>
-                <textarea name="" id="message" cols="25" rows="10" placeholder="Введите сообщение..."></textarea>
-            </div>
-    
-            <button type="submit">Отправить</button>
-    
-
-      </footer>  
-
+            <p>Приветствую тебя на сайте по <strong>лучшим сериалам</strong> по моему мнению. Оценка дается от <em>1 до 10</em></p>
+            <p>На этой странице ты увидишь <strong>5</strong> топовых сериалов, которые обязательны к просмотру!</p>
+        </header>
         
+        <div class="tablediv">
+    
+            <h1>Список  лучших сериалов</h1>
+    
+        <table width="500" class="table">
+            <thead>
+                <th>Название </th>
+                <th>Дата выхода</th>
+                <th>Оценка</th>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Игра престолов</td>
+                <td>2011</td>
+                <td>9</td>
+                </tr>
+                <tr>
+                    <td>Во все тяжкие</td>
+                    <td>2008</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Силиконовая долина</td>
+                    <td>2014</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Настоящий детектив</td>
+                    <td>2014</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Клан сопрано</td>
+                    <td>1997</td>
+                    <td>9</td>
+                </tr>
+            </tbody>
+        </table>
+           
+        </ul>
+
+      <div class="hm">
+        <h2>Honorable Mention</h2>
+        <ul type="square">
+            <li>Банши</li>
+            <li>Мышь</li>
+            <li>Декстер</li>
+            <li>Больница никербокер</li>
+            <li>Suits</li>
+        </ul>
+      </div>
+        </div>
+    <hr>
+        <div class="top1">
+            <h1>ТОП 1</h1>
+            <h4>
+                <a href="https://www.kinopoisk.ru/series/404900/" target="_blank" class="bb">Во все тяжкие</a>
+            </h4>
+            <img src="br_bad.jpg" width="300" alt="здесь лежит баннер во все тяжкие" class="bbimg">
+            <p><em>Оценка: <strong>10 из 10</strong> | Лучший сериал</em></p>
+    
+    
+        </div>
+            <hr>
+    
+          <footer>
+
+            <form action="" class="form">
+                <h2>Связаться со мной</h2>
+               <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" name="" id="name" placeholder="Введите имя">
+                </div>
+        
+                <div class="form-group">
+                    <label for="email">Ваш email</label>
+                    <input type="email" name="" id="email" placeholder="Введите email">
+                </div>
+            </div>
+        
+                <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    <textarea name="" id="message" cols="25" rows="10" placeholder="Введите сообщение..."></textarea>
+                </div>
+        
+                <p>
+                    <button type="submit" class="btn">Отправить</button>
+                </p>
+        
+    
+          </footer>     
+        </div>          
     </div>
+    
 
 </body>
 </html>
