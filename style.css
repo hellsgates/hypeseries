@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
 
 .container{
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     margin: auto;
+    padding: 0 20px;
 }
 
 body{
@@ -12,25 +14,31 @@ body{
     letter-spacing: 1px;
     background: #e4e8ff;
     color: #0f141e;
+    line-height: 1.5;
 }
 
 .info-text h1{
     color: darkred;
-    margin-left: 350px;
+    text-align: center;
+    margin: 20px 0;
 }
 
 @media (max-width: 650px){
     .container{
-        width: 650px;
+        width: 100%;
+        max-width: 650px;
     }
     .hypeseries{
         align-items: center;
     }
-    .hm{
-        width: 77%;
+    .hm {
+        width: 100%; 
+        margin: 0; 
+    
     }
     .info-text{
         text-align: center;
+        flex-direction: column;
     }
     }
 
@@ -46,6 +54,7 @@ body{
 
 .hypeseries{
 display: flex;
+justify-content: center;
 }
 
 .logo{
@@ -61,7 +70,7 @@ display: flex;
 .table{
     background: #f3c774;
     border-radius: 8px;
-    padding-left: 20px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -72,7 +81,7 @@ display: flex;
 .hm{
     background: #bb9cfa;
     border-radius: 8px;
-    margin-right: 500px;
+    width: 50%;
 }
 
 
